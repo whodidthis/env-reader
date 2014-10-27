@@ -1,0 +1,16 @@
+[package]
+
+name = "env_reader"
+version = "0.0.1"
+authors = ["whodidthis <tonihe@gmail.com>"]
+
+[lib]
+
+name = "env_reader"
+path = "src/lib.rs"
+plugin = true
+
+[[test]]
+
+name = "test"
+path = "src/test.rs"
